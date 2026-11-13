@@ -1,0 +1,27 @@
+node_modules/
+dist/
+dist-single/
+tmp/
+*.local
+.DS_Store
+*.log
+
+# 本地开发与工具产物（不发布）
+.workbuddy/
+.trae-html-share-packages/
+.screenshots/
+.claude/
+.agents/
+.pytest_cache/
+__pycache__/
+*.dbpartial
+*.dbver
+
+# 敏感信息
+.env
+.env.*
+*.key
+*.pem
+*token*.json
+*credential*
+config.local.*

@@ -1,0 +1,6 @@
+export { detectArtifact, componentRegistry, checkComponents, assembleCharacterArtifact } from './registry'
+export type { ArtifactInput, ArtifactDetection, ComponentRef, CharacterArtifactManifest, AssembleCharacterOptions, AssembledCharacterArtifact } from './registry'
+export { validateCharacterSource, validateCharacterCardV2, patchCharacterSource, exportCharacterCardJson, CARD_FIELD_MAP } from './cardCodec'
+export { encodeCardFile, makeDefaultCover, embedCardInPng, buildV3Envelope, readPngChunks } from './cardExport'
+export type { CardFileExport } from './cardExport'
+export { createCharacterPage, updateCharacterArtifact } from '../character/page'

@@ -98,12 +98,6 @@ npm run build:single   # 工作台自身的单文件构建
 
 TypeScript · React 19 · Vite 8 · Dexie / IndexedDB · sandbox iframe + postMessage · Web Worker · Service Worker · Vitest。全部在浏览器内，没有后端。
 
-## 更多
-
-- [产品规则与设计取舍](plan.md)
-- [实现与验证记录](docs/design.md)
-- [作品组件契约与配方](docs/components.md)
-
 ---
 
 **RPAgent** — 描述你想要什么，写、跑、玩、改、带走，都在同一个页面里发生。
